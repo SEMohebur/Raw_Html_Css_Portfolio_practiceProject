@@ -213,4 +213,50 @@ main {
 
 footer {
   margin-top: 130px;
+  padding: 0 230px 0 230px;
+}
+
+.connect-title {
+  font-weight: bold;
+  font-size: 35px;
+  text-wrap: nowrap;
+}
+
+.connect-desc {
+  font-size: 16px;
+}
+.footer-perent {
+  display: flex;
+  justify-content: center;
+  gap: 117px;
+}
+.connatc-leftSide {
+  flex: 1;
+}
+.msg-rightSide {
+  flex: 1;
+}
+.msg-title {
+  font-weight: bold;
+  font-size: 35px;
+}
+input {
+  width: 460px;
+  height: 60px;
+  padding: 18px 0 18px 30px;
+  border: none;
+  margin-bottom: 24px;
+  border-radius: 5px;
+}
+textarea {
+  width: 460px;
+  height: 180px;
+  padding: 18px 0 18px 30px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+.footer-btn {
+  margin-bottom: 130px;
 }
